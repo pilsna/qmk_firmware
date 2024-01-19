@@ -4,8 +4,10 @@
 #include QMK_KEYBOARD_H
 #include "print.h"
 #include "keymap_danish_mac_iso.h"
+/* TODO: backslash gives dash, and completely missing slashes and dashes...*/
 
-const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = 
      /* Layer 0: Letters
       * ┌───┬───┬───┬───┬───┬───┐       ┌───┬───┬───┬───┬───┬───┐
       * │Tab│ Q │ W │ E │ R │ T │       │ Y │ U │ I │ O │ P │ Å │
