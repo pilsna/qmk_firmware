@@ -74,7 +74,7 @@
 #define DK_OSTR KC_QUOT // Ø
 #define DK_QUOT KC_NUHS // '
 // Row 4
-#define DK_LABK KC_NUBS // <
+#define DK_LABK KC_GRV // <
 #define DK_Z    KC_Z    // Z
 #define DK_X    KC_X    // X
 #define DK_C    KC_C    // C
@@ -118,7 +118,7 @@
 // Row 3
 #define DK_ASTR S(DK_QUOT) // *
 // Row 4
-#define DK_RABK S(DK_LABK) // >
+#define DK_RABK S(KC_GRV)  // >
 #define DK_SCLN S(DK_COMM) // ;
 #define DK_COLN S(DK_DOT)  // :
 #define DK_UNDS S(DK_MINS) // _
@@ -137,17 +137,17 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define DK_AT   ALGR(DK_2)    // @
+#define DK_AT   ALGR(DK_QUOT) // @
 #define DK_PND  ALGR(DK_3)    // £
 #define DK_DLR  ALGR(DK_4)    // $
-#define DK_EURO ALGR(DK_5)    // €
-#define DK_LCBR ALGR(DK_7)    // {
+#define DK_EURO S(DK_4)       // €
+#define DK_LCBR SAGR(DK_8)    // {
 #define DK_LBRC ALGR(DK_8)    // [
 #define DK_RBRC ALGR(DK_9)    // ]
-#define DK_RCBR ALGR(DK_0)    // }
-#define DK_PIPE ALGR(DK_ACUT) // |
-// Row 2
+#define DK_RCBR SAGR(DK_9)    // }
+#define DK_PIPE ALGR(KC_I)    // |
+// Row 2 
 #define DK_TILD ALGR(DK_DIAE) // ~ (dead)
 // Row 4
-#define DK_BSLS ALGR(DK_LABK) // (backslash)
+#define DK_BSLS SAGR(DK_7)    // (backslash)
 #define DK_MICR ALGR(DK_M)    // µ
